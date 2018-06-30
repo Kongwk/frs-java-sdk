@@ -14,10 +14,10 @@ Here are the necessary dependencies:
 
 	<dependency>
             <groupId>com.huawei.frs</groupId>
-            <artifactId>frs-java-client</artifactId>
+            <artifactId>cloud-java-sdk-frs</artifactId>
             <version>1.0.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/frs-java-client-1.0.0.jar</systemPath>
+            <systemPath>${project.basedir}/lib/cloud-java-sdk-frs-1.0.0.jar</systemPath>
         </dependency>
 
         <dependency>

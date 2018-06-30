@@ -11,10 +11,10 @@
     <dependencies>
         <dependency>
             <groupId>com.huawei.frs</groupId>
-            <artifactId>frs-java-client</artifactId>
+            <artifactId>cloud-java-sdk-frs</artifactId>
             <version>1.0.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/frs-java-client-1.0.0-jar-with-dependencies.jar</systemPath>
+            <systemPath>${project.basedir}/lib/cloud-java-sdk-frs-1.0.0-jar-with-dependencies.jar</systemPath>
         </dependency>
     </dependencies>
 
@@ -23,6 +23,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.5</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
